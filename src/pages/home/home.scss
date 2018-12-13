@@ -1,0 +1,155 @@
+page-home {
+
+    //Muda a cor do back button
+    .scroll-content {
+        padding: 0px !important;
+    }
+
+    //Navbar
+    .button-inner{
+        color: white;
+    }
+
+    //Centraliza o texto da toolbar
+    ion-title{
+        text-align: center;   
+    }
+    .toolbar-title, .toolbar-title-ios {
+        font-weight: 200;
+    }
+    .toolbar-content, .toolbar-content-md {
+        display: inline-flex;
+        padding-right: 10%;
+    }
+
+    //Corpo da página
+    .img {
+        height: 25%;
+        width: auto;
+        .img-ambulance {
+            height: 95%;
+            width: auto;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 8%;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500 !important;
+        color: #575853;
+    }
+
+    //Inputs
+    
+         //Medidas da margem da direita e da esquerda dos componentes
+         .form {
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+    
+        .item-inner {
+            margin-left: 0px;
+        }
+    
+        .item, .item-block, .item-md, .item-input, .item-label-floating {
+            padding: 0px;
+        }
+    
+        
+        //linha do input
+        .item-md.item-block .item-inner {
+            border-bottom: 2px solid #575853;
+        }
+    
+        //Texto do input
+        .label, .label-md {
+            font-weight: 450;
+            color: #575853 !important;
+        }
+    
+    
+        //Corpo da página
+        .img {
+            height: 25%;
+            width: auto;
+            
+    
+            .img-emergency-call {
+                height: 95%;
+                width: auto;
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 8%;
+            }
+        }
+    
+        p {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500 !important;
+            color: #575853;
+        }
+    
+        //Inputs
+        //Medidas da margem da direita e da esquerda dos componentes
+        .form {
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        .item-inner {
+            margin-left: 0px;
+        }
+        .item, .item-block, .item-md, .item-input, .item-label-floating {
+            padding: 0px;
+        }
+    
+        //linha do input
+        .item-md.item-block .item-inner {
+            border-bottom: 2px solid #575853;
+        }
+    
+        //Texto do input
+        .label, .label-md {
+            font-weight: 450;
+            color: #575853 !important;
+        }
+
+        //Imagem bottom
+        .logo-ifsc {
+            margin: auto;
+            margin-top: 4%;
+            display: block;
+            height: 35px;
+        }
+        .container-logo-ifsc {
+            position: absolute;
+            width: 100%;
+            z-index: 9999;
+            margin-bottom: 0%;
+        }
+        .nomes{
+            p {
+                font-size: 12.5px;
+                margin-bottom: 1%;
+            }
+            text-align: center;
+        }
+        .footer {
+            p {
+                font-size: 12px;
+                margin-bottom: 1%;
+            }
+            .link {
+                color: #A4E8E3;
+                text-decoration: underline;
+            }
+            text-align: center;
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+
+}

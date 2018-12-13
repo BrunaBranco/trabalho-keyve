@@ -1,0 +1,7 @@
+{
+  "name": "computacaourbana",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

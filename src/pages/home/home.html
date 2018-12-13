@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Google Maps
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <!-- <span (click)="entrarPage()" class="link">Clique aqui</span> -->
+    <button ion-button [navPush]="pushPage" [navParams]="params">Clique aqui</button>
+  </ion-list>
+  <div class="img">
+    <img class="img-emergency-call" src="../../assets/imgs/bus.png">
+  </div>
+  <p>Informações</p>
+  <p>Versão 1.0</p>
+  <p>Professor</p>
+  <div class="nomes">
+    <p>André Salvaro</p>
+  </div>
+  <p>Alunos</p>
+  <div class="nomes">
+    <p>Jesiane Straubel</p>
+    <p>Keyve Alves</p>
+  </div>
+  <div class="footer">
+    <p>Todos os direitos reservados aos respectivos autores desse aplicativo.</p>
+  </div>
+  <div class="container-logo-ifsc">
+    <img class="logo-ifsc" src="../../assets/imgs/logo-ifsc.png">
+  </div>
+</ion-content>
